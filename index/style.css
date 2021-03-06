@@ -242,11 +242,13 @@ button{
     transition: all 0.3s ease 0s;
     color: #201C1C;
     font-size: 25px;
+    overflow: hidden;
 }
     body{
-        overflow: hidden;
+      
     }
     .line {
+      overflow: hidden;
       width: 30px;
       height: 3px;
       background: white;
@@ -256,9 +258,11 @@ button{
     nav {
       position: relative;
       z-index: 10000;
+      overflow: hidden;
     }
   
     .hamburger {
+      overflow: hidden;
         z-index: 100001;
       position: absolute;
       cursor: pointer;
@@ -269,6 +273,7 @@ button{
     }
   
     .nav-links {
+      overflow: hidden;
       position: fixed;
       background: #141E30;
     background: -webkit-linear-gradient(to right, #243B55, #141E30);  
@@ -282,6 +287,7 @@ button{
       pointer-events: none;
     }
     .nav-links.open {
+      overflow: hidden;
       clip-path: circle(1000px at 90% -10%);
       -webkit-clip-path: circle(1000px at 90% -10%);
       pointer-events: all;
